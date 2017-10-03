@@ -4,7 +4,8 @@
 #SingleInstance force
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-SetCapsLockState, alwaysoff
+
+SetCapsLockState, alwaysoff ; désactive le verrouillage majuscule
 
 ; Verr. Maj. j/k/l/i = flèches
 $*J::
