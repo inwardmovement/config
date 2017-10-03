@@ -5,36 +5,27 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-SetCapsLockState, alwaysoff ; désactive le verrouillage majuscule
-
-; Verr. Maj. j/k/l/i = flèches
-$*J::
-if GetKeyState("Capslock", "P")
-  send {blind}{left}
+; Notepad++ | Tab = flèche droite si avant " ou ' ou ) ou ] ou }
+/*
+GetCaretText()
+{
+ClipboardToRestore := ClipboardAll
+Clipboard = 
+Send +{right 1}   ; select text of interest
+Send ^c ; copy it
+ClipWait
+Send {left 1}   ; restore caret's original position
+CaretText := Clipboard
+Clipboard := ClipboardToRestore ; restore clipboard
+return CaretText
+}
+Tab::
+if (GetCaretText() = "")
+    Send {right}
 else
-  send {blind}{j}
+    Send {tab}
 return
-
-$*K::
-if GetKeyState("Capslock", "P")
-  send {blind}{down}
-else
-  send {blind}{k}
-return
-
-$*L::
-if GetKeyState("Capslock", "P")
-  send {blind}{right}
-else
-  send {blind}{l}
-return
-
-$*I::
-if GetKeyState("Capslock", "P")
-  send {blind}{up}
-else
-  send {blind}{i}
-return
+*/
 
 ; Ctrl retour arrière = efface mot
 #IfWinActive ahk_class CabinetWClass ; File Explorer

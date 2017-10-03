@@ -5,62 +5,23 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; Console | Verr. Maj. d = cd D:\Documents\Dev\
+; Console
 #IfWinActive Windows PowerShell
-$*d::
-if GetKeyState("Capslock", "P")
-  send {blind}cd D:\Documents\Dev\
-else
-  send {blind}{d}
+:*:dev@::cd D:\Documents\Dev\
 #IfWinActive
 return
 
-; Verr. Maj. w = inwardmovement.fr
-$*w::
-if GetKeyState("Capslock", "P")
-  send {blind}inwardmovement.fr
-else
-  send {blind}{w}
+:*:i@::inwardmovement.fr
 return
-
-; Verr. Maj. à = À
-$*à::
-if GetKeyState("Capslock", "P")
-  send {blind}À
-else
-  send {blind}{à}
+:*:àà::À
 return
-
-; Verr. Maj. é = É
-$*é::
-if GetKeyState("Capslock", "P")
-  send {blind}É
-else
-  send {blind}{é}
+:*:éé::É
 return
-
-; Verr. Maj. è = È
-$*è::
-if GetKeyState("Capslock", "P")
-  send {blind}È
-else
-  send {blind}{è}
+:*:èè::È
 return
-
-; Verr. Maj. ç = Ç
-$*ç::
-if GetKeyState("Capslock", "P")
-  send {blind}Ç
-else
-  send {blind}{ç}
+:*:çç::Ç
 return
-
-; Verr. Maj. ù = %appdata%
-$*ù::
-if GetKeyState("Capslock", "P")
-  send {blind}`%appdata`%
-else
-  send {blind}{ù}
+:*:%%::%appdata%
 return
 
 ; Ctrl espace = espace insécable
