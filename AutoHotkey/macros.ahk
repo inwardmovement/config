@@ -4,26 +4,31 @@
 #SingleInstance force
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+SetTitleMatchMode, 2
 
-; Notepad++ | Tab = flèche droite si avant " ou ' ou ) ou ] ou }
+; Notepad++ | Tab = flèche droite si avant " ou ' ou ) ou ] ou }, sinon = 4 espaces
 /*
 GetCaretText()
 {
-ClipboardToRestore := ClipboardAll
-Clipboard = 
-Send +{right 1}   ; select text of interest
-Send ^c ; copy it
-ClipWait
-Send {left 1}   ; restore caret's original position
-CaretText := Clipboard
-Clipboard := ClipboardToRestore ; restore clipboard
-return CaretText
+    ClipboardToRestore := ClipboardAll
+    Clipboard = 
+    Send +{right 1}
+    Send ^c
+    ClipWait
+    Send {left 1}
+    CaretText := Clipboard
+    Clipboard := ClipboardToRestore
+    return CaretText
 }
-Tab::
-if (GetCaretText() = "")
-    Send {right}
-else
-    Send {tab}
+#IfWinActive Notepad++
+$Tab::send % instr("""')]}", GetCaretText()) ? "{right}" : "{tab}"
+#IfWinActive
+*/
+
+/*
+#IfWinActive Notepad++
+Tab::Send {Space 4}
+#IfWinActive
 return
 */
 
@@ -39,26 +44,26 @@ Return
 ; F4 convertit en html les retours à la ligne et les sauts de lignes du texte sélectionné dans Notepad++
 #IfWinActive ahk_class Notepad++
 F4::
-	ClipSaved := ClipboardAll
-	Clipboard =
-	Send ^c
-	ClipWait 1
-	IF (ErrorLevel)
-		Return
-	temp := clipboard
-	temp := StrReplace(temp, "`r`n", "<br>`r`n")
-	temp := StrReplace(temp, "<br>`r`n<br>`r`n", "</p>`r`n`r`n<p>")
-	clipboard := "<p>" . temp . "</p>"
-	Send ^v
-	Clipboard := ClipSaved
-	ClipSaved =
-	#IfWinActive
+    ClipSaved := ClipboardAll
+    Clipboard =
+    Send ^c
+    ClipWait 1
+    IF (ErrorLevel)
+        Return
+    temp := clipboard
+    temp := StrReplace(temp, "`r`n", "<br>`r`n")
+    temp := StrReplace(temp, "<br>`r`n<br>`r`n", "</p>`r`n`r`n<p>")
+    clipboard := "<p>" . temp . "</p>"
+    Send ^v
+    Clipboard := ClipSaved
+    ClipSaved =
+    #IfWinActive
 Return
 
 ; F1 = dans GMail convertit la ligne en citation
 #IfWinActive ahk_class MozillaWindowClass
 F1::
-	Send ^+9
+    Send ^+9
 #IfWinActive
 return
 
@@ -67,21 +72,23 @@ return
 F1::
 Loop,
 {
-	If (active := "local" or active := "")
-		{
-			Send !+l ; ferme local
-			Send !+f ; ouvre ftp
-			active := "ftp"
-			break
-			
-		}
-	If (active := "ftp")
-		{
-			Send !+f ; ferme ftp
-			Send !+l ; ouvre local
-			active := "local"
-			break
-		}
+    If (active := "local" or active := "")
+        {
+            Send !+l ; ferme local
+            Send !+f ; ouvre ftp
+            active := "ftp"
+            Sleep, 50
+            ControlFocus, Scintilla1, ahk_exe notepad++.exe
+            break
+            
+        }
+    If (active := "ftp")
+        {
+            Send !+f ; ferme ftp
+            Send !+l ; ouvre local
+            active := "local"
+            break
+        }
 }
 #IfWinActive
 return
@@ -91,18 +98,20 @@ return
 F2::
 Loop,
 {
-	If (panel := "off" or panel := "")
-		{
-			Send !+s
-			panel := "on"
-			break
-		}
-	If (panel := "on")
-		{
-			Send !+s
-			active := "local"
-			break
-		}
+    If (panel := "off" or panel := "")
+        {
+            Send !+s
+            panel := "on"
+            Sleep, 50
+            ControlFocus, Scintilla1, ahk_exe notepad++.exe
+            break
+        }
+    If (panel := "on")
+        {
+            Send !+s
+            active := "local"
+            break
+        }
 }
 #IfWinActive
 return

@@ -4,12 +4,7 @@
 #SingleInstance force
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
-; Console
-#IfWinActive Windows PowerShell
-:*:dev@::cd D:\Documents\Dev\
-#IfWinActive
-return
+SetTitleMatchMode, 2
 
 :*:i@::inwardmovement.fr
 return
