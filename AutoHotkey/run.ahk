@@ -20,47 +20,19 @@ WinWait, Bloc-notes
 WinActivate, Bloc-notes
 Return
 
-; Notepad++
+; Sublime Text
 #n::
-run C:\Program Files (x86)\Notepad++\Notepad++.exe
-WinWait, Notepad++
-WinActivate, Notepad++
-ControlFocus, Scintilla1, ahk_exe notepad++.exe
+run C:\Program Files\Sublime Text 3\sublime_text.exe
+WinWait, Sublime Text
+WinActivate, Sublime Text
 Return
 
-; Console Power Shell
-#c::
-run C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-WinWait, Windows PowerShell
-WinActivate, Windows PowerShell
-Return
-
-/*
-; Visual Studio Code
-#v::
-run C:\Program Files\Microsoft VS Code\Code.exe
-WinWait, Visual Studio Code
-WinActivate, Visual Studio Code
-Return
-*/
-
-/*
-; Console Cmder
+; Console
 #c::
 run C:\cmder\Cmder.exe
 WinWait, Cmder
 WinActivate, Cmder
 Return
-*/
-
-/*
-; Console Cmd
-#c::
-run C:\Windows\System32\cmd.exe
-WinWait, ahk_exe cmd.exe
-WinActivate, ahk_exe cmd.exe
-Return
-*/
 
 ; Documents
 #Space::
@@ -69,21 +41,23 @@ WinWait, Documents
 WinActivate, Documents
 Return
 
-; FileZilla
+; Firefox
 #f::
-run filezilla.exe
-WinWait, FileZilla
-WinActivate, FileZilla
+run C:\Program Files\Firefox Developer Edition\firefox.exe
+WinWait, Firefox
+WinActivate, Firefox
 Return
 
-; Paint
-#p::
-run mspaint.exe
-WinWait, mspaint
-WinActivate, mspaint
+; Laragon
+#l::
+run C:\laragon\laragon.exe
+WinWait, Laragon
+WinActivate, Laragon
 Return
 
-; Wamp
-#w::
-run C:\wamp64\wampmanager.exe
+; eM Client (focus)
+#e::
+run C:\Program Files (x86)\eM Client\MailClient.exe
+WinWait, eM Client
+WinActivate, eM Client
 Return

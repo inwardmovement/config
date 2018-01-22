@@ -19,8 +19,14 @@ return
 :*:%%::%appdata%
 return
 
-; Ctrl espace = espace insécable
-^space::Send % Chr(160)
+; AltGr D = date
+<^>!d::
+FormatTime, CurrentDateTime,, yyyy-MM-dd
+SendInput %CurrentDateTime%
+return
+
+; AltGr espace = espace insécable
+<^>!space::Send % Chr(160)
 return
 
 ; AltGr . = point médian
