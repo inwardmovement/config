@@ -1,0 +1,1 @@
+goes in C:\cmder\vendor\conemu-maximus5
