@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+http://<?php echo \$_SERVER['SERVER_NAME']; ?>/assets/
+]]></content>
+<tabTrigger>assets</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<i class="fas fa-$1"></i>$0
+]]></content>
+<tabTrigger>i</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>
