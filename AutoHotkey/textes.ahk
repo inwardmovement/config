@@ -16,8 +16,6 @@ return
 return
 :*:çç::Ç
 return
-:*:%%::%appdata%
-return
 
 ; AltGr D = date
 <^>!d::

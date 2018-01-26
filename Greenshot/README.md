@@ -1,1 +1,1 @@
-goes in C:\Users\arkay\AppData\Roaming\Greenshot
+goes in `C:\Users\arkay\AppData\Roaming\Greenshot`
