@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-data-fa-transform="$0"
+<?php $0 ?>
 ]]></content>
-<tabTrigger>transform</tabTrigger>
+<tabTrigger>php</tabTrigger>
 <description></description>
 <scope></scope>
 </snippet>

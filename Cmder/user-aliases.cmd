@@ -5,11 +5,10 @@
 ;= goto:eof
 ;= Add aliases below here
 e.=explorer .
-gl=git log --oneline --all --graph --decorate  $*
+log=git log --oneline --pretty=format:"%Cblue%cn %Creset%s" -10  $*
 ls=ls --show-control-chars -F --color $*
 pwd=cd
 clear=cls
 history=cat "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
 cmderr=cd /d "%CMDER_ROOT%"
-vi=vim

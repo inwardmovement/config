@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-<!-- Fontawesome --><script defer src="http://<?php echo \$_SERVER['SERVER_NAME']; ?>/assets/fontawesome.js"></script>
-]]></content>
-<tabTrigger>fa</tabTrigger>
-<description>Fontawesome</description>
-<scope></scope>
-</snippet>

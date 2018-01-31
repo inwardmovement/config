@@ -46,3 +46,7 @@ return
 ; AltGr Numpad5 = »
 <^>!Numpad5::»
 return
+
+; git log = git log --reverse
+::git log::git log --reverse
+return

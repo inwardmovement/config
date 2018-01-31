@@ -1,2 +1,2 @@
 goes in `C:\cmder\config`
-- for aliases to work, tick "Use legacy console" in Windows console
+- aliases don't work for now, see [Cmder issue #1257](https://github.com/cmderdev/cmder/issues/1257)

@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
-<i class="fas fa-$1"></i>$0
+display: grid;
 ]]></content>
-<tabTrigger>i</tabTrigger>
+<tabTrigger>dg</tabTrigger>
 <description></description>
 <scope></scope>
 </snippet>
