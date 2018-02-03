@@ -9,7 +9,7 @@
 [core]
 	pager = cat
 	editor = 'C:/Program Files/Sublime Text 3/subl.exe' -w
-	autocrlf = true
+	autocrlf = input
 [log]
   date = relative
 [format]
