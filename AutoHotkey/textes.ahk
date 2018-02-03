@@ -1,4 +1,4 @@
-﻿#NoTrayIcon
+#NoTrayIcon
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 #SingleInstance force
@@ -28,23 +28,19 @@ return
 return
 
 ; AltGr . = point médian
-<^>!;::·
+<^>!;::Send % Chr(183)
 return
 
-; AltGr Numpad1 = –
-<^>!Numpad1::–
+; AltGr * = —
+<^>!*::Send % Chr(8212)
 return
 
-; AltGr Numpad2 = —
-<^>!Numpad2::—
+; AltGr ^ = «
+<^>!^::Send % Chr(171)
 return
 
-; AltGr Numpad4 = «
-<^>!Numpad4::«
-return
-
-; AltGr Numpad5 = »
-<^>!Numpad5::»
+; AltGr $ = »
+<^>!$::Send % Chr(187)
 return
 
 ; git log = git log --reverse

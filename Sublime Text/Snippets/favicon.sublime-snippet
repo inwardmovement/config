@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-<!-- Favicon --><link rel="icon" href="http://<?php echo \$_SERVER['SERVER_NAME']; ?>/assets/favicon.png">
+<link rel="icon" href="/assets/favicon.png">
 ]]></content>
 <tabTrigger>favicon</tabTrigger>
 <description>Favicon</description>

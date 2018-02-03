@@ -8,7 +8,7 @@
 	email = victor.dhamma@gmail.com
 [core]
 	pager = cat
-	editor = vim
+	editor = 'C:/Program Files/Sublime Text 3/subl.exe' -w
 	autocrlf = true
 [log]
   date = relative

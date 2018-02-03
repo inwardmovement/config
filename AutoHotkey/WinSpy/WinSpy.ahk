@@ -1,4 +1,4 @@
-﻿; WinSpy - Window Information Tool
+; WinSpy - Window Information Tool
 
 #NoEnv
 #SingleInstance Off
@@ -3189,7 +3189,7 @@ IsNumber(n) {
 
 ShowHelp:
 Gui Spy: +OwnDialogs
-MsgBox 0x40, %AppName% Keyboard Shortcuts, 
+MsgBox 0x40, %AppName% Keyboard Shortcuts,
 (
 F2:  Go to the parent window
 F3:  Show the Find dialog

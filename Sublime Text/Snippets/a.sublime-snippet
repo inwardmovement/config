@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+[${1:name}](${2:url})
+]]></content>
+<tabTrigger>a</tabTrigger>
+<description></description>
+<scope>text.html.markdown, meta.paragraph.markdown, meta.link.inline.markdown, punctuation.definition.link.begin.markdown</scope>
+</snippet>

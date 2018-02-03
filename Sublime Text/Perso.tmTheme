@@ -103,6 +103,18 @@ a {
 
         <dict>
             <key>name</key>
+            <string>TrailingSpace</string>
+            <key>scope</key>
+            <string>blank</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#3c4c55</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
             <string>Comments</string>
             <key>scope</key>
             <string>comment, punctuation.definition.comment</string>
