@@ -1,4 +1,4 @@
-#NoTrayIcon
+﻿#NoTrayIcon
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 #SingleInstance force
@@ -8,13 +8,21 @@ SetTitleMatchMode, 2
 
 :*:i@::inwardmovement.fr
 return
-:*:àà::À
+
+; Maj gauche + à = À
+<+à::À
 return
-:*:éé::É
+
+; Maj gauche + é = É
+<+é::É
 return
-:*:èè::È
+
+; Maj gauche + è = È
+<+è::È
 return
-:*:çç::Ç
+
+; Maj gauche + ç = Ç
+<+ç::Ç
 return
 
 ; AltGr D = date

@@ -4,5 +4,5 @@
 ]]></content>
 <tabTrigger>a</tabTrigger>
 <description></description>
-<scope>text.html.markdown, meta.paragraph.markdown, meta.link.inline.markdown, punctuation.definition.link.begin.markdown</scope>
+<scope>text.html.markdown, meta.paragraph.markdown</scope>
 </snippet>

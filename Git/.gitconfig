@@ -13,4 +13,4 @@
 [log]
   date = relative
 [format]
-  pretty = format:%Cblue%cn %Creset%s
+  pretty = format:%Cblue%cn %Creset%s %Cgreen%h
