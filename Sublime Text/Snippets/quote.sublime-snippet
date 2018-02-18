@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+{{% quote "" %}}
+  $0
+{{% /quote %}}
+]]></content>
+<tabTrigger>quote</tabTrigger>
+<description></description>
+<scope>text.html.markdown, meta.paragraph.markdown</scope>
+</snippet>

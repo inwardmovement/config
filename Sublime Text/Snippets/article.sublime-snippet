@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+---
+title: $1
+lang: ${2:fr}
+---
+
+$0
+]]></content>
+<tabTrigger>article</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>

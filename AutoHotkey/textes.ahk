@@ -9,20 +9,20 @@ SetTitleMatchMode, 2
 :*:i@::inwardmovement.fr
 return
 
-; Maj gauche + à = À
-<+à::À
+; Maj droite + à = À
+>+à::À
 return
 
-; Maj gauche + é = É
-<+é::É
+; Maj droite + é = É
+>+é::É
 return
 
-; Maj gauche + è = È
-<+è::È
+; Maj droite + è = È
+>+è::È
 return
 
-; Maj gauche + ç = Ç
-<+ç::Ç
+; Maj droite + ç = Ç
+>+ç::Ç
 return
 
 ; AltGr D = date
@@ -51,6 +51,32 @@ return
 <^>!$::Send % Chr(187)
 return
 
+; bur = cd C:\Users\arkay\Bureau
+#IfWinActive Cmder
+::bur::cd C:\Users\arkay\Bureau
+#IfWinActive
+return
+
+; www = cd C:\laragon\www
+#IfWinActive Cmder
+::www::cd C:\laragon\www
+#IfWinActive
+return
+
 ; git log = git log --reverse
+#IfWinActive Cmder
 ::git log::git log --reverse
+#IfWinActive
+return
+
+; up = git add + commit + push
+#IfWinActive Cmder
+::up::git add . && git commit -m "update" && git push
+#IfWinActive
+return
+
+; hs = hugo server
+#IfWinActive Cmder
+::hs::hugo server
+#IfWinActive
 return
