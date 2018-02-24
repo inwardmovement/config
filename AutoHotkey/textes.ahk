@@ -63,9 +63,9 @@ return
 #IfWinActive
 return
 
-; git log = git log --reverse
+; . = explorer .
 #IfWinActive Cmder
-::git log::git log --reverse
+::.::explorer .
 #IfWinActive
 return
 
@@ -75,8 +75,14 @@ return
 #IfWinActive
 return
 
-; hs = hugo server
+; git log = git log --reverse
 #IfWinActive Cmder
-::hs::hugo server
+::git log::git log --reverse
+#IfWinActive
+return
+
+; hs = hugo server -D
+#IfWinActive Cmder
+::hs::hugo server -D
 #IfWinActive
 return

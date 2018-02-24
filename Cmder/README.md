@@ -1,2 +1,3 @@
-goes in `C:\cmder\config`
-- aliases don't work for now, see [Cmder issue #1257](https://github.com/cmderdev/cmder/issues/1257)
+﻿goes in `C:\cmder\config`  
+
+- erreur périodique : restaurer vendor/init.bat depuis une nouvelle installation
