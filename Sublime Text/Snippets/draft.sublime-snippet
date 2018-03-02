@@ -1,15 +1,8 @@
 <snippet>
 <content><![CDATA[
----
-title: $1
-recueil: poemes
-lang: fr
-date: $2
----
-
-$0
+draft: true
 ]]></content>
-<tabTrigger>poem</tabTrigger>
+<tabTrigger>draft</tabTrigger>
 <description></description>
 <scope></scope>
 </snippet>

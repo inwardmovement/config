@@ -2,14 +2,13 @@
 <content><![CDATA[
 ---
 title: $1
-recueil: poemes
+layout: recueil
 lang: fr
-date: $2
 ---
 
-$0
+$2
 ]]></content>
-<tabTrigger>poem</tabTrigger>
+<tabTrigger>recueil</tabTrigger>
 <description></description>
 <scope></scope>
 </snippet>

@@ -549,6 +549,28 @@ a {
         </dict>
         <dict>
             <key>name</key>
+            <string>Markdown - Separator Thematic Break</string>
+            <key>scope</key>
+            <string>meta.separator.thematic-break.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#3c4c55</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown - Punctuation Definition</string>
+            <key>scope</key>
+            <string>punctuation.definition.raw.end.markdown, punctuation.definition.raw.begin.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#3c4c55</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Markdown - Line Break</string>
             <key>scope</key>
             <string>text.html.markdown meta.dummy.line-break</string>

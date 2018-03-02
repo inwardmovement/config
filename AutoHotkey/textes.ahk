@@ -51,37 +51,55 @@ return
 <^>!$::Send % Chr(187)
 return
 
-; bur = cd C:\Users\arkay\Bureau
+; cd C:\Users\arkay\Bureau
 #IfWinActive Cmder
 ::bur::cd C:\Users\arkay\Bureau
 #IfWinActive
 return
 
-; www = cd C:\laragon\www
+; cd C:\laragon\www
 #IfWinActive Cmder
 ::www::cd C:\laragon\www
 #IfWinActive
 return
 
-; . = explorer .
+; explorer .
 #IfWinActive Cmder
-::.::explorer .
+::e::explorer .
 #IfWinActive
 return
 
-; up = git add + commit + push
+; git diff
 #IfWinActive Cmder
-::up::git add . && git commit -m "update" && git push
+::gd::git diff --cached
 #IfWinActive
 return
 
-; git log = git log --reverse
+; git status
 #IfWinActive Cmder
-::git log::git log --reverse
+::gs::git status
 #IfWinActive
 return
 
-; hs = hugo server -D
+; git log
+#IfWinActive Cmder
+::gl::git log --reverse
+#IfWinActive
+return
+
+; git checkout
+#IfWinActive Cmder
+::gc::git checkout
+#IfWinActive
+return
+
+; up
+#IfWinActive Cmder
+::up::git add . && git commit -m "update" && git push {Left 14}
+#IfWinActive
+return
+
+; hugo server
 #IfWinActive Cmder
 ::hs::hugo server -D
 #IfWinActive

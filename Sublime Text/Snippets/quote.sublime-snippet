@@ -6,5 +6,5 @@
 ]]></content>
 <tabTrigger>quote</tabTrigger>
 <description></description>
-<scope>text.html.markdown, meta.paragraph.markdown</scope>
+<scope></scope>
 </snippet>

@@ -19,6 +19,10 @@
 		"*.editorconfig",
 		"*.gitattributes",
 		"*.gitignore",
+		"package-lock.json",
+		"package.json",
+		"hugo.exe",
+		"google0f9479867466c623.html",
 		"*Gemfile.lock"
 	],
 	"find_selected_text": false,
@@ -29,9 +33,10 @@
 		".git",
 		".hg",
 		"CVS",
-		"_site",
 		"pdf",
+		"_site",
 		".sass-cache",
+		"node_modules",
 		"script"
 	],
 	"font_face": "Consolas",

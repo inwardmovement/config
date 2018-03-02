@@ -2,7 +2,8 @@
 <content><![CDATA[
 ---
 title: $1
-lang: ${2:fr}
+lang: fr
+date: $2
 ---
 
 $0
