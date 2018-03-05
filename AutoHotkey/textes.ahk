@@ -9,19 +9,19 @@ SetTitleMatchMode, 2
 :*:i@::inwardmovement.fr
 return
 
-; Maj droite + à = À
+; Maj droite à = À
 >+à::À
 return
 
-; Maj droite + é = É
+; Maj droite é = É
 >+é::É
 return
 
-; Maj droite + è = È
+; Maj droite è = È
 >+è::È
 return
 
-; Maj droite + ç = Ç
+; Maj droite ç = Ç
 >+ç::Ç
 return
 
@@ -31,8 +31,12 @@ FormatTime, CurrentDateTime,, yyyy-MM-dd
 SendInput %CurrentDateTime%
 return
 
-; AltGr espace = espace insécable
-<^>!space::Send % Chr(160)
+; AltGr espace = espace fine insécable
+<^>!space::Send % Chr(8239)
+return
+
+; AltGr Maj espace = espace insécable
+<^>!>+space::Send % Chr(160)
 return
 
 ; AltGr . = point médian
