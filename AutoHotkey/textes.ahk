@@ -39,8 +39,8 @@ return
 <^>!;::Send % Chr(183)
 return
 
-; AltGr * = —
-<^>!*::Send % Chr(8212)
+; AltGr ? = —
+<^>!,::Send % Chr(8212)
 return
 
 ; AltGr ^ = «
@@ -49,6 +49,14 @@ return
 
 ; AltGr $ = »
 <^>!$::Send % Chr(187)
+return
+
+; AltGr : = “
+<^>!ù::Send % Chr(8220)
+return
+
+; AltGr ! = ”
+<^>!*::Send % Chr(8221)
 return
 
 ; cd C:\Users\arkay\Bureau
