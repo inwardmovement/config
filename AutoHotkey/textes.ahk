@@ -43,20 +43,12 @@ return
 <^>!,::Send % Chr(8212)
 return
 
-; AltGr ^ = «
-<^>!^::Send % Chr(171)
+; AltGr ^ = « » toggle
+<^>!^::Send % (t := !t) ? Chr(171) : Chr(187)
 return
 
-; AltGr $ = »
-<^>!$::Send % Chr(187)
-return
-
-; AltGr : = “
-<^>!ù::Send % Chr(8220)
-return
-
-; AltGr ! = ”
-<^>!*::Send % Chr(8221)
+; AltGr $ = “ ” toggle
+<^>!$::Send % (t := !t) ?Chr(8220) : Chr(8221)
 return
 
 ; cd C:\Users\arkay\Bureau
