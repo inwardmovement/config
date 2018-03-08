@@ -91,6 +91,18 @@ a {
 
         <dict>
             <key>name</key>
+            <string>InvalidIllegalExpectedEolMarkdown</string>
+            <key>scope</key>
+            <string>invalid.illegal.expected-eol.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#3c4c55</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
             <string>PHP</string>
             <key>scope</key>
             <string>source.php</string>

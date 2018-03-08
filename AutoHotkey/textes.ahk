@@ -6,7 +6,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetTitleMatchMode, 2
 
-:*:i@::inwardmovement.fr
+:*:i@::inwardmovement.github.io
 return
 
 ; Maj droite à = À
@@ -31,12 +31,12 @@ FormatTime, CurrentDateTime,, yyyy-MM-dd
 SendInput %CurrentDateTime%
 return
 
-; AltGr espace = espace fine insécable
-<^>!space::Send % Chr(8239)
+; AltGr espace = espace insécable
+<^>!space::Send % Chr(160)
 return
 
-; AltGr Maj espace = espace insécable
-<^>!>+space::Send % Chr(160)
+; AltGr Maj espace = espace fine insécable
+<^>!>+space::Send % Chr(8239)
 return
 
 ; AltGr . = point médian

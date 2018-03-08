@@ -1,8 +1,10 @@
 <snippet>
 <content><![CDATA[
-{{< toc >}}
+{{% alert "primary" %}}
+  $0
+{{% /alert %}}
 ]]></content>
-<tabTrigger>toc</tabTrigger>
+<tabTrigger>alert</tabTrigger>
 <description></description>
 <scope></scope>
 </snippet>

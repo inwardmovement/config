@@ -1,15 +1,8 @@
 <snippet>
 <content><![CDATA[
----
-title: $1
-recueil: poemes
-lang: fr
-date: $2
----
-
-$0
+{{< slides "$0" >}}
 ]]></content>
-<tabTrigger>poem</tabTrigger>
+<tabTrigger>slides</tabTrigger>
 <description></description>
 <scope></scope>
 </snippet>

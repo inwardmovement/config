@@ -1,4 +1,8 @@
 {
+	"added_words":
+	[
+		"comparément"
+	],
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": false,
 	"auto_complete_selector": "source, text",
@@ -9,7 +13,7 @@
 	"color_scheme": "Packages/User/Perso.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
-	"dictionary": "Packages/Language - English/en_US.dic",
+	"dictionary": "Packages/Language - French - Français/fr_FR (1990 reform).dic",
 	"dpi_scale": 1.4,
 	"draw_indent_guides": false,
 	"draw_white_space": "none",
@@ -75,6 +79,7 @@
 	"show_panel_on_build": false,
 	"show_tab_close_buttons": false,
 	"soda_folder_icons": false,
+	"spell_check": false,
 	"tab_size": 2,
 	"theme": "Spacegray Light.sublime-theme",
 	"theme_sidebar_indent_top_level_disabled": true,

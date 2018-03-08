@@ -2,13 +2,14 @@
 <content><![CDATA[
 ---
 title: $1
-lang: fr
 date: $2
+lang: fr
+draft: true
 ---
 
 $0
 ]]></content>
-<tabTrigger>article</tabTrigger>
+<tabTrigger>ar</tabTrigger>
 <description></description>
 <scope></scope>
 </snippet>

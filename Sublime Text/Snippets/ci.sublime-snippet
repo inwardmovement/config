@@ -1,8 +1,12 @@
 <snippet>
 <content><![CDATA[
-{{< toc >}}
+{{- with (getenv "CI") }}
+  $0
+{{ else }}
+  
+{{- end }}
 ]]></content>
-<tabTrigger>toc</tabTrigger>
+<tabTrigger>ci</tabTrigger>
 <description></description>
 <scope></scope>
 </snippet>
