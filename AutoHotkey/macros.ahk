@@ -30,12 +30,21 @@ F6::
 #IfWinActive
 Return
 
-; Ctrl retour arrière = efface mot
-#IfWinActive ahk_class CabinetWClass ; File Explorer
-  ^Backspace::
-#IfWinActive ahk_class Notepad
-  ^Backspace::
-  Send ^+{Left}{Backspace}
+; ; Ctrl retour arrière = efface mot
+; #IfWinActive ahk_class CabinetWClass
+;   ^Backspace::
+; #IfWinActive ahk_class Notepad
+;   ^Backspace::
+;   Send ^+{Left}{Backspace}
+; #IfWinActive
+; Return
+
+; Ctrl  = Firefox ajouter à l'url
+#IfWinActive ahk_class MozillaWindowClass
+^g::
+  Send ^e
+  WinWait, ahk_class MozillaWindowClass
+  Send {Right}
 #IfWinActive
 Return
 

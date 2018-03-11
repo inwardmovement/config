@@ -75,7 +75,7 @@ return
 
 ; git diff
 #IfWinActive Cmder
-::gd::git diff --cached
+::gd::git status -vv
 #IfWinActive
 return
 
