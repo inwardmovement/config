@@ -29,7 +29,7 @@
 
 # Misc
 - `sudo apt install ubuntu-restricted-extras`
-- [graphical tearing](https://forum.ubuntu-fr.org/viewtopic.php?id=1554101)
+- `window manager tweaks > compositor > synchronize drawing to the vertical blank`
 - theme [Arc-Flatabulous-Darker](https://github.com/andreisergiu98/arc-flatabulous-theme)
 - icons [Arc Icon Theme](https://github.com/horst3180/arc-icon-theme)
 - terminal [Grafikart](https://github.com/Grafikart/dotfiles/blob/master/config/xfce4/.config/xfce4/terminal/terminalrc)
