@@ -15,9 +15,10 @@
 # Keybinds
 - `Super+Space` file explorer
 - `Super+M` menu
+- `Super+F` firefox
 - `Super+T` terminal
 - `Super+N` notepad
-- `Super+B` browser
+- `Super+B` bloc-note
 - `Super+L` todo list
 - `Super+S` screenshot
 - `Super+E` expand abbreviation ?
