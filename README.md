@@ -4,7 +4,8 @@
 # Apps
  - [Firefox Developper Edition](https://www.mozilla.org/fr/firefox/developer/)
  - [Sublime Text](https://www.sublimetext.com/)
- - [Texpander](https://github.com/leehblue/texpander)
+ - [Texpander](https://github.com/leehblue/texpander) ?
+ - [Autokey](https://github.com/autokey/autokey)
  - [Discord](https://discordapp.com/)
  - [Spotify](https://www.spotify.com/fr/download/linux/)
  - [Git](https://git-scm.com/download/linux)
@@ -19,7 +20,7 @@
 - `Super+B` bloc-note
 - `Super+A` à faire
 - `Super+S` screenshot
-- `Super+E` expand abbreviation
+- `Super+E` expand abbreviation ?
 - `Ctrl+Alt+D` show desktop
 - `Ctrl+Alt+X` close app
 - `²` push-to-talk
