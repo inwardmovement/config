@@ -75,7 +75,13 @@ return
 
 ; git status
 #IfWinActive Cmder
-::gs::git status -vv
+::gs::git status
+#IfWinActive
+return
+
+; git diff
+#IfWinActive Cmder
+::gd::git status -vv
 #IfWinActive
 return
 

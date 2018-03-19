@@ -1,0 +1,35 @@
+﻿# Apps
+ - [Firefox Developper Edition](https://www.mozilla.org/fr/firefox/developer/)
+ - [Sublime Text](https://www.sublimetext.com/)
+ - [Texpander](https://github.com/leehblue/texpander)
+ - [Discord](https://discordapp.com/)
+ - [Spotify](https://www.spotify.com/fr/download/linux/)
+
+# Keybinds
+- `Super+Space` file explorer
+- `Super+M` menu
+- `Super+T` terminal
+- `Super+N` notepad
+- `Super+B` bloc-note
+- `Super+A` à faire
+- `Super+S` screenshot
+- `Super+E` expand abbreviation
+- `Ctrl+Alt+D` show desktop
+- `Ctrl+Alt+X` close app
+- `²` push-to-talk
+
+# Misc
+- `sudo apt update && sudo apt upgrade`
+- `sudo apt install ubuntu-restricted-extras`
+- [graphical tearing](https://forum.ubuntu-fr.org/viewtopic.php?id=1554101)
+- theme [Arc-Flatabulous-Darker](https://github.com/andreisergiu98/arc-flatabulous-theme)
+- icons [Arc Icon Theme](https://github.com/horst3180/arc-icon-theme)
+- terminal [Grafikart](https://github.com/Grafikart/dotfiles/blob/master/config/xfce4/.config/xfce4/terminal/terminalrc)
+- [add git branch name to bash prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
+- settings > privacy > files and applications > don't save 
+- settings > search > don't include
+- delete `Sublime Text > PackageResourceViewer: Open Resource > HTML > Snippets/ > html.sublime-snippet`
+
+# Config files
+- `/git` goes in `C:\Users\arkay`
+- `/sublime` goes in `C:\Users\arkay\AppData\Roaming\Sublime Text 3\Packages\User`

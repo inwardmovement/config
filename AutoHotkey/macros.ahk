@@ -39,7 +39,7 @@ Return
 ; #IfWinActive
 ; Return
 
-; Ctrl  = Firefox ajouter à l'url
+; Ctrl G = Firefox ajouter à l'url
 #IfWinActive ahk_class MozillaWindowClass
 ^g::
   Send ^e
