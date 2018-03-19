@@ -37,7 +37,7 @@
 - settings > search > don't include
 - [Microsoft fonts config](https://doc.ubuntu-fr.org/msttcorefonts#en_dual-boot_avec_windows)
 - delete `Sublime Text > PackageResourceViewer: Open Resource > HTML > Snippets/ > html.sublime-snippet`
-- customize panel, window manager, window manager tweaks, keyboard, desktop...
+- customize panel, window manager, window manager tweaks, keyboard, desktop, cursor...
 
 # Config files
 - `/git` goes in `C:\Users\arkay`
