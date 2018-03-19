@@ -17,16 +17,16 @@
 - `Super+M` menu
 - `Super+T` terminal
 - `Super+N` notepad
-- `Super+B` bloc-note
-- `Super+A` à faire
+- `Super+B` browser
+- `Super+L` todo list
 - `Super+S` screenshot
 - `Super+E` expand abbreviation ?
 - `Ctrl+Alt+D` show desktop
-- `Ctrl+Alt+X` close app
+- `Ctrl+Alt+C` close window
+- `Ctrl+Alt+F` full size toggle
 - `²` push-to-talk
 
 # Misc
-- `sudo apt update && sudo apt upgrade`
 - `sudo apt install ubuntu-restricted-extras`
 - [graphical tearing](https://forum.ubuntu-fr.org/viewtopic.php?id=1554101)
 - theme [Arc-Flatabulous-Darker](https://github.com/andreisergiu98/arc-flatabulous-theme)
@@ -37,6 +37,7 @@
 - settings > search > don't include
 - [Microsoft fonts config](https://doc.ubuntu-fr.org/msttcorefonts#en_dual-boot_avec_windows)
 - delete `Sublime Text > PackageResourceViewer: Open Resource > HTML > Snippets/ > html.sublime-snippet`
+- customize panel, window manager, window manager tweaks, keyboard, desktop...
 
 # Config files
 - `/git` goes in `C:\Users\arkay`
