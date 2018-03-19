@@ -3,6 +3,7 @@
 	[
 		"comparément"
 	],
+	"animation_enabled": false,
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": false,
 	"auto_complete_selector": "source, text",
@@ -37,7 +38,6 @@
 		".git",
 		".hg",
 		"CVS",
-		"pdf",
 		"_site",
 		".sass-cache",
 		"node_modules",
@@ -78,7 +78,6 @@
 	"show_line_endings": true,
 	"show_panel_on_build": false,
 	"show_tab_close_buttons": false,
-	"soda_folder_icons": false,
 	"spell_check": false,
 	"tab_size": 2,
 	"theme": "Spacegray Light.sublime-theme",
