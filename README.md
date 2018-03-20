@@ -29,7 +29,6 @@
 - `sudo apt install ubuntu-restricted-extras`
 - `sudo apt install ntp`
 - theme Numix
-- terminal [Grafikart](https://github.com/Grafikart/dotfiles/blob/master/config/xfce4/.config/xfce4/terminal/terminalrc)
 - [add git branch name to bash prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
 - settings > privacy > files and applications > don't save 
 - settings > search > don't include
