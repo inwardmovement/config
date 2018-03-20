@@ -11,6 +11,7 @@
  - [Hugo](https://gohugo.io/getting-started/installing#linux)
  - gnome-gmail
  - gedit
+ - numix-blue-gtk-theme
 
 ## Keybinds
 - `Super+Space` file explorer
@@ -27,7 +28,7 @@
 ## Misc
 - `sudo apt install ubuntu-restricted-extras`
 - `sudo apt install ntp`
-- theme + style Numix
+- theme + style Numix Blue
 - [add git branch name to bash prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
 - window manager tweaks > compositor > synchronize drawing to the vertical blank
 - preferred applications > firefox developper edition + gnome-gmail
