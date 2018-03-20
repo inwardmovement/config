@@ -28,12 +28,11 @@
 - `sudo apt install ntp`
 - theme Numix
 - [add git branch name to bash prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
-- settings > privacy > files and applications > don't save 
-- settings > search > don't include
 - window manager tweaks > compositor > synchronize drawing to the vertical blank
 - preferred applications > firefox developper edition + gnome-gmail
 - [Microsoft fonts config](https://doc.ubuntu-fr.org/msttcorefonts#en_dual-boot_avec_windows)
 - delete `Sublime Text > PackageResourceViewer: Open Resource > HTML > Snippets/ > html.sublime-snippet`
+- clone repos
 - customize panel, window manager, window manager tweaks, keyboard, desktop...
 
 ## Config files
