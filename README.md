@@ -4,8 +4,7 @@
 ## Apps
  - [Firefox Developper Edition](https://www.mozilla.org/fr/firefox/developer/)
  - [Sublime Text](https://www.sublimetext.com/)
- - [Texpander](https://github.com/leehblue/texpander) ?
- - [Autokey](https://github.com/autokey/autokey) ?
+ - [Autokey](https://github.com/autokey/autokey)
  - [Discord](https://discordapp.com/)
  - [Spotify](https://www.spotify.com/fr/download/linux/)
  - [Git](https://git-scm.com/download/linux)
