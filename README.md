@@ -1,7 +1,7 @@
-﻿# OS
+﻿## OS
 - [Xubuntu](https://xubuntu.org/download)
 
-# Apps
+## Apps
  - [Firefox Developper Edition](https://www.mozilla.org/fr/firefox/developer/)
  - [Sublime Text](https://www.sublimetext.com/)
  - [Texpander](https://github.com/leehblue/texpander) ?
@@ -12,7 +12,7 @@
  - [Hugo](https://gohugo.io/getting-started/installing#linux)
  - [OBS](https://github.com/obsproject/obs-studio/wiki/Install-Instructions#linux)
 
-# Keybinds
+## Keybinds
 - `Super+Space` file explorer
 - `Super+M` menu
 - `Super+F` firefox
@@ -27,7 +27,7 @@
 - `Ctrl+Alt+F` full size toggle
 - `²` push-to-talk
 
-# Misc
+## Misc
 - `sudo apt install ubuntu-restricted-extras`
 - `sudo apt install ntp` (time synchronization)
 - `window manager tweaks > compositor > synchronize drawing to the vertical blank`
@@ -41,6 +41,6 @@
 - delete `Sublime Text > PackageResourceViewer: Open Resource > HTML > Snippets/ > html.sublime-snippet`
 - customize panel, window manager, window manager tweaks, keyboard, desktop...
 
-# Config files
+## Config files
 - `/git` goes in `C:\Users\arkay`
 - `/sublime` goes in `C:\Users\arkay\AppData\Roaming\Sublime Text 3\Packages\User`
