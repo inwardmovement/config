@@ -20,6 +20,7 @@
 - `Super+B` bloc-note
 - `Super+S` screenshot
 - `Super+D` desktop
+- `Ctrl+Alt+F` full
 - `Ctrl+Alt+R` resize
 
 ## Misc
