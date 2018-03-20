@@ -26,14 +26,14 @@
 
 ## Misc
 - `sudo apt install ubuntu-restricted-extras`
-- `sudo apt install ntp` (time synchronization)
-- `window manager tweaks > compositor > synchronize drawing to the vertical blank`
+- `sudo apt install ntp`
 - theme [Arc-Flatabulous-Darker](https://github.com/andreisergiu98/arc-flatabulous-theme)
 - icons [Arc Icon Theme](https://github.com/horst3180/arc-icon-theme)
 - terminal [Grafikart](https://github.com/Grafikart/dotfiles/blob/master/config/xfce4/.config/xfce4/terminal/terminalrc)
 - [add git branch name to bash prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
 - settings > privacy > files and applications > don't save 
 - settings > search > don't include
+- `window manager tweaks > compositor > synchronize drawing to the vertical blank`
 - [Microsoft fonts config](https://doc.ubuntu-fr.org/msttcorefonts#en_dual-boot_avec_windows)
 - delete `Sublime Text > PackageResourceViewer: Open Resource > HTML > Snippets/ > html.sublime-snippet`
 - customize panel, window manager, window manager tweaks, keyboard, desktop...
