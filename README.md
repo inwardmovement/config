@@ -5,18 +5,17 @@
  - [Firefox Developper Edition](https://www.mozilla.org/fr/firefox/developer/)
  - [Sublime Text](https://www.sublimetext.com/)
  - [Texpander](https://github.com/leehblue/texpander) ?
- - [Autokey](https://github.com/autokey/autokey)
+ - [Autokey](https://github.com/autokey/autokey) ?
  - [Discord](https://discordapp.com/)
  - [Spotify](https://www.spotify.com/fr/download/linux/)
  - [Git](https://git-scm.com/download/linux)
  - [Hugo](https://gohugo.io/getting-started/installing#linux)
- - [OBS](https://github.com/obsproject/obs-studio/wiki/Install-Instructions#linux)
 
 ## Keybinds
 - `Super+Space` file explorer
-- `Super+M` menu
+- `Super+A` applications
 - `Super+F` firefox
-- `Super+T` terminal
+- `Super+C` console
 - `Super+N` notepad
 - `Super+B` bloc-note
 - `Super+L` todo list
@@ -25,7 +24,6 @@
 - `Ctrl+Alt+D` show desktop
 - `Ctrl+Alt+C` close window
 - `Ctrl+Alt+F` full size toggle
-- `²` push-to-talk
 
 ## Misc
 - `sudo apt install ubuntu-restricted-extras`
