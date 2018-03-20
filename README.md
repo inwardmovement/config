@@ -10,6 +10,7 @@
  - [Git](https://git-scm.com/download/linux)
  - [Hugo](https://gohugo.io/getting-started/installing#linux)
  - gnome-gmail
+ - gedit
 
 ## Keybinds
 - `Super+Space` file explorer
