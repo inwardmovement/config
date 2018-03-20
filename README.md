@@ -18,12 +18,9 @@
 - `Super+C` console
 - `Super+N` notepad
 - `Super+B` bloc-note
-- `Super+L` todo list
 - `Super+S` screenshot
-- `Super+E` expand abbreviation ?
-- `Ctrl+Alt+D` show desktop
-- `Ctrl+Alt+C` close window
-- `Ctrl+Alt+F` full size toggle
+- `Super+D` desktop
+- `Ctrl+Alt+R` resize
 
 ## Misc
 - `sudo apt install ubuntu-restricted-extras`
