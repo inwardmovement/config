@@ -26,7 +26,7 @@
 ## Misc
 - `sudo apt install ubuntu-restricted-extras`
 - `sudo apt install ntp`
-- theme Numix
+- theme + style Numix
 - [add git branch name to bash prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
 - window manager tweaks > compositor > synchronize drawing to the vertical blank
 - preferred applications > firefox developper edition + gnome-gmail
