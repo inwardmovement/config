@@ -29,6 +29,7 @@
 
 # Misc
 - `sudo apt install ubuntu-restricted-extras`
+- `sudo apt install ntp` (time synchronization)
 - `window manager tweaks > compositor > synchronize drawing to the vertical blank`
 - theme [Arc-Flatabulous-Darker](https://github.com/andreisergiu98/arc-flatabulous-theme)
 - icons [Arc Icon Theme](https://github.com/horst3180/arc-icon-theme)
