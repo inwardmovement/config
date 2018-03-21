@@ -19,6 +19,7 @@
 - `Super+C` console
 - `Super+N` notepad
 - `Super+B` bloc-note
+- `Super+L` list
 - `Super+S` screenshot
 - `Ctrl+Alt+M` menu
 - `Ctrl+Alt+D` desktop
