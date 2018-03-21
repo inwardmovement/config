@@ -19,7 +19,7 @@
 - `Super+C` console
 - `Super+N` notepad
 - `Super+B` bloc-note
-- `Super+L` list
+- `Super+A` à faire
 - `Super+S` screenshot
 - `Ctrl+Alt+M` menu
 - `Ctrl+Alt+D` desktop
@@ -29,11 +29,10 @@
 - `sudo apt install ubuntu-restricted-extras`
 - `sudo apt install ntp`
 - theme + style Numix Blue
-- [add git branch name to bash prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
 - window manager tweaks > compositor > synchronize drawing to the vertical blank
+- [screen tearing](https://www.gamingonlinux.com/articles/how-to-an-update-on-fixing-screen-tearing-on-linux-with-an-nvidia-gpu.8892)
 - preferred applications > firefox developper edition + gnome-gmail
 - [Microsoft fonts config](https://doc.ubuntu-fr.org/msttcorefonts#en_dual-boot_avec_windows)
-- delete `Sublime Text > PackageResourceViewer: Open Resource > HTML > Snippets/ > html.sublime-snippet`
 - clone repos
 - customize panel, window manager, window manager tweaks, keyboard, desktop...
 
