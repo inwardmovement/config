@@ -12,16 +12,17 @@
  - gnome-gmail
  - gedit
  - numix-blue-gtk-theme
+ - YakYak
 
 ## Keybinds
 - `Super+Space` file explorer
-- `Super+A` applications
 - `Super+F` firefox
 - `Super+C` console
 - `Super+N` notepad
 - `Super+B` bloc-note
 - `Super+S` screenshot
-- `Super+D` desktop
+- `Ctrl+Alt+M` menu
+- `Ctrl+Alt+D` desktop
 - `Ctrl+Alt+F` full
 - `Ctrl+Alt+R` resize
 

@@ -17,11 +17,6 @@
     { "keys": ["f1"], "command": "make_snippet" },
     { "keys": ["f2"], "command": "edit_snippet" },
     { "keys": ["f3"], "command": "delete_snippet" },
-    // f5 = préférences / f6 = raccourcis (AHK) :
-        { "keys": ["ctrl+alt+s"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
-        { "keys": ["ctrl+alt+u"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
-        { "keys": ["ctrl+alt+k"], "command": "open_file", "args": {"file": "${packages}/Default/Default (Windows).sublime-keymap"} },
-        { "keys": ["ctrl+alt+y"], "command": "open_file", "args": {"file": "${packages}/User/Default (Windows).sublime-keymap"} },
     { "keys": ["ctrl+shift+w"], "command": "wrap_as_you_type", 
         "context": [
             {
@@ -52,6 +47,8 @@
     { "keys": ["ctrl+t"], "command": "title_case" },
     { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
     { "keys": ["ctrl+f8"], "command": "next_misspelling" },
-    { "keys": ["ctrl+h"], "command": "toggle_side_bar" }
+    { "keys": ["ctrl+h"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
+    { "keys": ["alt+m"], "command": "toggle_menu"}
 ]
 
