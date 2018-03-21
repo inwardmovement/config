@@ -10,7 +10,6 @@
  - [Git](https://git-scm.com/download/linux)
  - [Hugo](https://gohugo.io/getting-started/installing#linux)
  - gnome-gmail
- - gedit
  - numix-blue-gtk-theme
  - YakYak
 
@@ -23,7 +22,6 @@
 - `Super+S` screenshot
 - `Ctrl+Alt+M` menu
 - `Ctrl+Alt+D` desktop
-- `Ctrl+Alt+F` full
 - `Ctrl+Alt+R` resize
 
 ## Misc
@@ -39,5 +37,4 @@
 - customize panel, window manager, window manager tweaks, keyboard, desktop...
 
 ## Config files
-- `/git` goes in `C:\Users\arkay`
-- `/sublime` goes in `C:\Users\arkay\AppData\Roaming\Sublime Text 3\Packages\User`
+- `/sublime` goes in `/home/vic/.config/sublime-text-3/Packages/User/`
