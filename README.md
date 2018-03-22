@@ -17,14 +17,13 @@
 
 ## Keybinds
 - `Super+Space` file explorer
-- `Super+F` firefox
 - `Super+C` console
 - `Super+N` notepad
 - `Super+B` bloc-note
 - `Super+A` à faire
 - `Super+S` screenshot
+- `Super+D` desktop
 - `Super+Tab` menu
-- `Ctrl+Alt+D` desktop
 - `Ctrl+Alt+R` resize
 
 ## Misc
