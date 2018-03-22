@@ -12,6 +12,8 @@
  - gnome-gmail
  - numix-blue-gtk-theme
  - YakYak
+ - redshift
+ - [brightside](http://ubuntuhandbook.org/index.php/2015/03/enable-hot-corners-xfce-desktop/)
 
 ## Keybinds
 - `Super+Space` file explorer
@@ -21,7 +23,7 @@
 - `Super+B` bloc-note
 - `Super+A` à faire
 - `Super+S` screenshot
-- `Ctrl+Alt+M` menu
+- `Super+M` menu
 - `Ctrl+Alt+D` desktop
 - `Ctrl+Alt+R` resize
 
@@ -38,3 +40,4 @@
 
 ## Config files
 - `/sublime` goes in `/home/vic/.config/sublime-text-3/Packages/User/`
+- `/autokey` goes in `/home/vic/`
