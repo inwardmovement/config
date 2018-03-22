@@ -23,7 +23,7 @@
 - `Super+B` bloc-note
 - `Super+A` à faire
 - `Super+S` screenshot
-- `Super+M` menu
+- `Super+Tab` menu
 - `Ctrl+Alt+D` desktop
 - `Ctrl+Alt+R` resize
 
