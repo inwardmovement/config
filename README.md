@@ -34,8 +34,8 @@
 - [screen tearing](https://www.gamingonlinux.com/articles/how-to-an-update-on-fixing-screen-tearing-on-linux-with-an-nvidia-gpu.8892)
 - preferred applications > firefox developper edition + gnome-gmail
 - [Microsoft fonts config](https://doc.ubuntu-fr.org/msttcorefonts#en_dual-boot_avec_windows)
-- clone repos
-- customize panel, window manager, window manager tweaks, keyboard, desktop...
+- [media keys](https://askubuntu.com/questions/857359/windows-play-pause-keys-on-xubuntu-spotify/865450#865450)
+- special characters: middle dot = `ctrl+shift+u` + `00b7` + `space`; tiret quadratin = `ctrl+shift+u` + `2014` + `space`
 
 ## Config files
 - `/sublime` goes in `/home/vic/.config/sublime-text-3/Packages/User/`
