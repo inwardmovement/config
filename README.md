@@ -4,3 +4,4 @@
 - `/cmder/config` goes in `C:` (erreur périodique : restaurer vendor/init.bat depuis une nouvelle installation)
 - `/AutoHotkey` and `remove-safely-icon.bat` go anywhere 
 - add `/AutoHotkey/autoload.bat` and `remove-safely-icon.bat` to startup programs
+test
