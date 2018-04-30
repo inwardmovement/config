@@ -10,6 +10,7 @@ SetTitleMatchMode, 2
 #IfWinActive Sublime Text
 F5::
   Send ^+n
+  Send ^m
   Send ^!s
   WinWait, Preferences
   WinMaximize
@@ -22,6 +23,7 @@ Return
 #IfWinActive Sublime Text
 F6::
   Send ^+n
+  Send ^m
   Send ^!k
   WinWait, Default (Windows)
   WinMaximize
@@ -30,14 +32,12 @@ F6::
 #IfWinActive
 Return
 
-; ; Ctrl retour arrière = efface mot
-; #IfWinActive ahk_class CabinetWClass
-;   ^Backspace::
-; #IfWinActive ahk_class Notepad
-;   ^Backspace::
-;   Send ^+{Left}{Backspace}
-; #IfWinActive
-; Return
+; Ctrl retour arrière = efface mot
+#IfWinActive ahk_class CabinetWClass
+  ^Backspace::
+  Send ^+{Left}{Backspace}
+#IfWinActive
+Return
 
 ; Ctrl G = Firefox ajouter à l'url
 #IfWinActive ahk_class MozillaWindowClass

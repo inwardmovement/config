@@ -9,6 +9,9 @@ SetTitleMatchMode, 2
 :*:i@::inwardmovement.github.io
 return
 
+:*:v@::victor.dhamma@gmail.com
+return
+
 ; Maj droite à = À
 >+à::À
 return
@@ -35,10 +38,6 @@ return
 <^>!space::Send % Chr(160)
 return
 
-; AltGr Maj espace = espace fine insécable
-<^>!>+space::Send % Chr(8239)
-return
-
 ; AltGr . = point médian
 <^>!;::Send % Chr(183)
 return
@@ -55,15 +54,21 @@ return
 <^>!$::Send % (t := !t) ?Chr(8220) : Chr(8221)
 return
 
-; cd C:\Users\arkay\Bureau
+; cd D:\Desktop
 #IfWinActive Cmder
-::bur::cd C:\Users\arkay\Bureau
+::bur::cd D:\Desktop
 #IfWinActive
 return
 
-; cd C:\laragon\www
+; cd D:\Documents
 #IfWinActive Cmder
-::www::cd C:\laragon\www
+::doc::cd D:\Documents
+#IfWinActive
+return
+
+; cd D:\laragon\www
+#IfWinActive Cmder
+::www::cd D:\laragon\www
 #IfWinActive
 return
 
@@ -99,7 +104,13 @@ return
 
 ; up
 #IfWinActive Cmder
-::up::git add . && git commit -m "update" && git push {Left 14}
+::up::git add . && git commit -m "up" && git push {Left 14}
+#IfWinActive
+return
+
+; travis status
+#IfWinActive Cmder
+::ts::travis-status --wait 300000
 #IfWinActive
 return
 

@@ -1,4 +1,4 @@
-#NoTrayIcon
+﻿#NoTrayIcon
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 #SingleInstance force
@@ -8,9 +8,9 @@ SetTitleMatchMode, 2
 
 ; A faire
 #a::
-run D:\Documents\a faire.txt
-WinWait, a faire
-WinActivate, a faire
+run D:\Documents\à faire.txt
+WinWait, à faire
+WinActivate, à faire
 Return
 
 ; Bloc-notes
@@ -29,7 +29,7 @@ Return
 
 ; Console
 #c::
-run C:\cmder\Cmder.exe
+run C:\bin\cmder\Cmder.exe
 WinWait, Cmder
 WinActivate, Cmder
 Return
@@ -41,23 +41,9 @@ WinWait, Documents
 WinActivate, Documents
 Return
 
-; Firefox
-#f::
-run C:\Program Files\Firefox Developer Edition\firefox.exe
-WinWait, Firefox
-WinActivate, Firefox
-Return
-
 ; Laragon
 #l::
 run C:\laragon\laragon.exe
 WinWait, Laragon
 WinActivate, Laragon
-Return
-
-; eM Client (focus)
-#e::
-run C:\Program Files (x86)\eM Client\MailClient.exe
-WinWait, eM Client
-WinActivate, eM Client
 Return

@@ -1,16 +1,8 @@
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
 [user]
-	name = Victor Massé
-	email = victor.dhamma@gmail.com
-[core]
-	pager = cat
-	editor = vim
-	autocrlf = input
+  email = victor.dhamma@gmail.com
+  name = Victor Massé
 [log]
   date = relative
 [format]
   pretty = format:%Cblue%cn %Creset%s %Cgreen%h
+  
