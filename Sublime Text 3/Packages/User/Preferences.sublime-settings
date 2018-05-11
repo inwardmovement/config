@@ -1,8 +1,4 @@
 {
-	"added_words":
-	[
-		"comparément"
-	],
 	"animation_enabled": false,
 	"auto_complete": false,
 	"auto_complete_commit_on_tab": false,
@@ -12,7 +8,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"color_scheme": "Packages/User/Perso.tmTheme",
-	"default_line_ending": "unix",
+	"default_line_ending": "system",
 	"detect_indentation": false,
 	"dictionary": "Packages/Language - French - Français/fr_FR (1990 reform).dic",
 	"dpi_scale": 1.4,
@@ -25,8 +21,6 @@
 		"*.gitattributes",
 		"*.gitignore",
 		"package-lock.json",
-		"package.json",
-		"hugo.exe",
 		"google0f9479867466c623.html",
 		"*Gemfile.lock"
 	],

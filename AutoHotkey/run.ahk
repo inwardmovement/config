@@ -8,7 +8,7 @@ SetTitleMatchMode, 2
 
 ; A faire
 #a::
-run D:\Documents\à faire.txt
+run C:\Users\arkay\Documents\à faire.txt
 WinWait, à faire
 WinActivate, à faire
 Return
@@ -36,7 +36,7 @@ Return
 
 ; Documents
 #Space::
-run D:\Documents
+run C:\Users\arkay\Documents
 WinWait, Documents
 WinActivate, Documents
 Return

@@ -56,19 +56,19 @@ return
 
 ; cd D:\Desktop
 #IfWinActive Cmder
-::bur::cd D:\Desktop
+::bur::cd C:\Users\arkay\Desktop
 #IfWinActive
 return
 
 ; cd D:\Documents
 #IfWinActive Cmder
-::doc::cd D:\Documents
+::doc::cd C:\Users\arkay\Documents
 #IfWinActive
 return
 
 ; cd D:\laragon\www
 #IfWinActive Cmder
-::www::cd D:\laragon\www
+::www::cd C:\laragon\www
 #IfWinActive
 return
 
@@ -110,12 +110,18 @@ return
 
 ; travis status
 #IfWinActive Cmder
-::ts::travis-status --wait 300000
+::ts::travis-status
 #IfWinActive
 return
 
 ; hugo server
 #IfWinActive Cmder
 ::hs::hugo server -D
+#IfWinActive
+return
+
+; hugo version
+#IfWinActive Cmder
+::hv::hugo version
 #IfWinActive
 return

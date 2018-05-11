@@ -1,8 +1,11 @@
 [user]
-  email = victor.dhamma@gmail.com
-  name = Victor Massé
+	email = victor.dhamma@gmail.com
+	name = Victor Massé
 [log]
   date = relative
 [format]
-  pretty = format:%Cblue%cn %Creset%s %Cgreen%h
-  
+  pretty = tformat:%Cgreen%cn %Creset%s %Cred%h
+[core]
+	pager = cat
+[winUpdater]
+	recentlySeenVersion = 2.17.0.windows.1
