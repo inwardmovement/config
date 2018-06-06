@@ -28,10 +28,20 @@ return
 >+ç::Ç
 return
 
+; AltGr O = œ
+<^>!o::œ
+return
+
 ; AltGr D = date
 <^>!d::
 FormatTime, CurrentDateTime,, yyyy-MM-dd
 SendInput %CurrentDateTime%
+return
+
+; AltGr F = date + time
+<^>!f::
+FormatTime, CurrentDateTime,, yyyy-MM-dd
+SendInput %CurrentDateTime%T00:00:01
 return
 
 ; AltGr espace = espace insécable
@@ -78,39 +88,33 @@ return
 #IfWinActive
 return
 
-; git status
+; status
 #IfWinActive Cmder
 ::gs::git status
 #IfWinActive
 return
 
-; git diff
-#IfWinActive Cmder
-::gd::git status -vv
-#IfWinActive
-return
-
-; git log
+; log
 #IfWinActive Cmder
 ::gl::git log --reverse
 #IfWinActive
 return
 
-; git checkout
-#IfWinActive Cmder
-::gc::git checkout
-#IfWinActive
-return
-
 ; up
 #IfWinActive Cmder
-::up::git add . && git commit -m "up" && git push {Left 14}
+::up::git add . && git commit -m "" && git push{Left 13}
 #IfWinActive
 return
 
-; travis status
+; add and commit
 #IfWinActive Cmder
-::ts::travis-status
+::gc::git add . && git commit -m ""{Left 1}
+#IfWinActive
+return
+
+; push
+#IfWinActive Cmder
+::gp::git push
 #IfWinActive
 return
 
