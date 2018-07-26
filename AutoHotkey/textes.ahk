@@ -38,12 +38,6 @@ FormatTime, CurrentDateTime,, yyyy-MM-dd
 SendInput %CurrentDateTime%
 return
 
-; AltGr F = date + time
-<^>!f::
-FormatTime, CurrentDateTime,, yyyy-MM-dd
-SendInput %CurrentDateTime%T00:00:01
-return
-
 ; AltGr espace = espace insécable
 <^>!space::Send % Chr(160)
 return
@@ -64,6 +58,12 @@ return
 <^>!$::Send % (t := !t) ?Chr(8220) : Chr(8221)
 return
 
+; Sublime Text p@ = content/poems/erosphere/.md
+#IfWinActive Sublime Text
+:*:p@::content/poems/erosphere/.md{Left 3}
+#IfWinActive
+return
+
 ; cd D:\Desktop
 #IfWinActive Cmder
 ::bur::cd C:\Users\arkay\Desktop
@@ -76,25 +76,25 @@ return
 #IfWinActive
 return
 
-; cd D:\laragon\www
-#IfWinActive Cmder
-::www::cd C:\laragon\www
-#IfWinActive
-return
-
 ; explorer .
 #IfWinActive Cmder
 ::e::explorer .
 #IfWinActive
 return
 
-; status
+; git status
 #IfWinActive Cmder
 ::gs::git status
 #IfWinActive
 return
 
-; log
+; git diff
+#IfWinActive Cmder
+::gd::git diff
+#IfWinActive
+return
+
+; git log
 #IfWinActive Cmder
 ::gl::git log --reverse
 #IfWinActive
@@ -106,13 +106,13 @@ return
 #IfWinActive
 return
 
-; add and commit
+; git add and commit
 #IfWinActive Cmder
 ::gc::git add . && git commit -m ""{Left 1}
 #IfWinActive
 return
 
-; push
+; git push
 #IfWinActive Cmder
 ::gp::git push
 #IfWinActive
@@ -127,5 +127,11 @@ return
 ; hugo version
 #IfWinActive Cmder
 ::hv::hugo version
+#IfWinActive
+return
+
+; php server
+#IfWinActive Cmder
+::ps::php -S localhost:8000
 #IfWinActive
 return

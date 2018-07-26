@@ -59,3 +59,26 @@ return
 #x::
 Send !{F4}
 Return
+
+; F1 = dans Notepad++ bascule panel snippets
+#IfWinActive ahk_class Notepad++
+F1::
+Loop,
+{
+    If (panel := "off" or panel := "")
+        {
+            Send !f
+            panel := "on"
+            Sleep, 50
+            ControlFocus, Scintilla1, ahk_exe notepad++.exe
+            break
+        }
+    If (panel := "on")
+        {
+            Send !f
+            active := "local"
+            break
+        }
+}
+#IfWinActive
+return
