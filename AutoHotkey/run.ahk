@@ -23,8 +23,6 @@ Return
 ; Notepad++
 #n::
 run C:\Program Files (x86)\Notepad++\notepad++.exe
-; WinWait, Notepad++
-; WinActivate, Notepad++
 Return
 
 ; Console

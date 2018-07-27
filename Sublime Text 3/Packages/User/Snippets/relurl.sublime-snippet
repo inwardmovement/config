@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-{{ "" | relURL }}
-]]></content>
-<tabTrigger>relurl</tabTrigger>
-<description></description>
-<scope></scope>
-</snippet>

@@ -1,0 +1,27 @@
+toc
+GLOBAL
+{{< toc >}}[>END<]!$[FingerTextData FingerTextData]@#
+slides
+GLOBAL
+{{< slides "" >}}[>END<]!$[FingerTextData FingerTextData]@#
+poem
+GLOBAL
+---
+title: $[![]!]
+date: $[![]!]
+recueil: erosphere
+lang: fr
+---
+
+$[![]!]
+[>END<]!$[FingerTextData FingerTextData]@#
+article
+GLOBAL
+---
+title: $[![]!]
+date: $[![]!]
+lang: fr
+---
+
+$[![]!]
+[>END<]!$[FingerTextData FingerTextData]@#
