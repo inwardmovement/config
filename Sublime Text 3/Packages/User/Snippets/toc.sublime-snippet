@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{{< toc >}}
+]]></content>
+<tabTrigger>toc</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>

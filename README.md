@@ -1,4 +1,4 @@
-﻿- `Notepad++` goes in `C:\Users\arkay\AppData\Roaming` (import `snippets.ftd` in FingerText, install Plugin Manager + FingerText + Light Explorer + EditorConfig + french dictionary)
+﻿- `Sublime Text 3` goes in `C:\Users\arkay\AppData\Roaming` (install `Theme - Spacegray` and create projects)
 - `Cmder/ConEmu.xml` goes in `C:\bin\cmder\vendor\conemu-maximus5` (if error: restore vendor/init.bat from new install)
 - `Git/.gitconfig` goes in `C:\Users\arkay`
 - `Greenshot` goes in `C:\Users\arkay\AppData\Roaming`

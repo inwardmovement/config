@@ -20,9 +20,11 @@ WinWait, Bloc-notes
 WinActivate, Bloc-notes
 Return
 
-; Notepad++
+; Sublime Text
 #n::
-run C:\Program Files (x86)\Notepad++\notepad++.exe
+run C:\Program Files\Sublime Text 3\sublime_text.exe
+WinWait, Sublime Text
+WinActivate, Sublime Text
 Return
 
 ; Console

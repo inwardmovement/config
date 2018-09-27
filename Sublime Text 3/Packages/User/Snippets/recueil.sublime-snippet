@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+---
+title: $1
+layout: recueil
+lang: fr
+---
+
+$2
+]]></content>
+<tabTrigger>recueil</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>

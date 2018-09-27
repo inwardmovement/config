@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@media (min-width: 768px) {
+  $0
+}
+]]></content>
+<tabTrigger>@media</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>

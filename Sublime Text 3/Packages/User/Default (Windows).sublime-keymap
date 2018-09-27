@@ -1,0 +1,58 @@
+[
+    { "keys": ["shift+space"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["ctrl+alt+r"], "command": "quick_file_move" },
+    { "keys": ["ctrl+space"], "command": "auto_complete" },
+    { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
+        [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+    { "keys": ["ctrl+d"], "command": "duplicate_line" },
+    { "keys": ["ctrl+e"], "command": "expand_region" },
+    { "keys": ["ctrl+shift+e"], "command": "find_under_expand" },
+    { "keys": ["ctrl+u"], "command": "expand_region", "args": {"undo": true}, "context": [{ "key": "expand_region_soft_undo" }] },
+    { "keys": ["f1"], "command": "make_snippet" },
+    { "keys": ["f2"], "command": "edit_snippet" },
+    { "keys": ["f3"], "command": "delete_snippet" },
+    // f5 = préférences / f6 = raccourcis (AHK) :
+        { "keys": ["ctrl+alt+s"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
+        { "keys": ["ctrl+alt+u"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
+        { "keys": ["ctrl+alt+k"], "command": "open_file", "args": {"file": "${packages}/Default/Default (Windows).sublime-keymap"} },
+        { "keys": ["ctrl+alt+y"], "command": "open_file", "args": {"file": "${packages}/User/Default (Windows).sublime-keymap"} },
+    { "keys": ["ctrl+shift+w"], "command": "wrap_as_you_type", 
+        "context": [
+            {
+                "operand": false, 
+                "operator": "equal", 
+                "match_all": true, 
+                "key": "setting.is_widget"
+            }, 
+            {
+                "match_all": true, 
+                "key": "emmet_action_enabled.wrap_as_you_type"
+            }
+        ]
+    },
+    { "keys": ["f9"], "command": "find_use" },
+    { "keys": ["f10"], "command": "import_namespace" },
+    { "keys": ["f11"], "command": "implement" },
+    { "keys": ["ctrl+up"], "command": "swap_line_up" },
+    { "keys": ["ctrl+down"], "command": "swap_line_down" },
+    { "keys": ["f8"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
+    { "keys": ["f7"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+    { "keys": ["ctrl+l"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+shift+v"], "command": "paste" },
+    { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+    { "keys": ["ctrl+q"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+alt+t"], "command": "transpose" },
+    { "keys": ["ctrl+t"], "command": "title_case" },
+    { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+    { "keys": ["ctrl+f8"], "command": "next_misspelling" },
+    { "keys": ["ctrl+h"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+m"], "command": "toggle_menu" }
+]
+

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<link rel="icon" href="/assets/favicon.png">
+]]></content>
+<tabTrigger>favicon</tabTrigger>
+<description>Favicon</description>
+<scope></scope>
+</snippet>

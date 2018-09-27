@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+!important
+]]></content>
+<tabTrigger>!</tabTrigger>
+<description></description>
+<scope>source.css</scope>
+</snippet>

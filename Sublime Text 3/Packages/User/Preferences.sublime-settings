@@ -1,0 +1,82 @@
+﻿{
+	"animation_enabled": false,
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_selector": "source, text",
+	"auto_match_enabled": true,
+	"bold_folder_labels": false,
+	"caret_extra_width": 1,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/Perso.tmTheme",
+	"default_line_ending": "system",
+	"detect_indentation": false,
+	"dictionary": "Packages/Language - French - Français/fr_FR (1990 reform).dic",
+	"dpi_scale": 1.4,
+	"draw_indent_guides": false,
+	"draw_white_space": "none",
+	"enable_tab_scrolling": false,
+	"file_exclude_patterns":
+	[
+		"*.editorconfig",
+		"*.gitattributes",
+		"*.gitignore",
+		"package-lock.json",
+		"google0f9479867466c623.html",
+		"*Gemfile.lock"
+	],
+	"find_selected_text": false,
+	"fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_site",
+		".sass-cache",
+		"node_modules",
+		"script"
+	],
+	"font_face": "Consolas",
+	"font_options":
+	[
+		"directwrite",
+		"no_bold",
+		"no_italic"
+	],
+	"font_size": 8,
+	"hot_exit": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_subsequent_lines": true,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"match_selection": false,
+	"match_tags": true,
+	"overlay_scroll_bars": "system",
+	"preview_on_click": false,
+	"remember_full_screen": true,
+	"remember_open_files": false,
+	"scroll_past_end": false,
+	"scroll_speed": 0,
+	"show_definitions": false,
+	"show_encoding": true,
+	"show_full_path": false,
+	"show_line_endings": true,
+	"show_panel_on_build": false,
+	"show_tab_close_buttons": false,
+	"spell_check": false,
+	"tab_size": 2,
+	"theme": "Spacegray Light.sublime-theme",
+	"theme_sidebar_indent_top_level_disabled": true,
+	"translate_tabs_to_spaces": true,
+	"tree_animation_enabled": false,
+	"word_wrap": "true"
+}

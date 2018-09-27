@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+---
+title: $1
+date: $2
+---
+
+$0
+]]></content>
+<tabTrigger>bl</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>

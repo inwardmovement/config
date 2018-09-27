@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+{{% alert "primary" %}}
+  $0
+{{% /alert %}}
+]]></content>
+<tabTrigger>alert</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>

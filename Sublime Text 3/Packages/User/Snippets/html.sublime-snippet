@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+</head>
+<body>
+
+  $0
+
+</body>
+</html>
+]]></content>
+<tabTrigger>html</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>
