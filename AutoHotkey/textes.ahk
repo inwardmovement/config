@@ -64,6 +64,12 @@ return
 #IfWinActive
 return
 
+; Sublime Text a@ = content/articles/.md
+#IfWinActive Sublime Text
+:*:a@::content/articles/.md{Left 3}
+#IfWinActive
+return
+
 ; cd D:\Desktop
 #IfWinActive Cmder
 ::bur::cd C:\Users\arkay\Desktop
