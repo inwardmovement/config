@@ -6,13 +6,6 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetTitleMatchMode, 2
 
-; A faire
-#a::
-run C:\Users\arkay\Documents\à faire.txt
-WinWait, à faire
-WinActivate, à faire
-Return
-
 ; Bloc-notes
 #b::
 run notepad.exe
