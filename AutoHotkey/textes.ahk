@@ -55,7 +55,7 @@ return
 return
 
 ; AltGr $ = “ ” toggle
-<^>!$::Send % (t := !t) ?Chr(8220) : Chr(8221)
+<^>!$::Send % (t := !t) ? Chr(8220) : Chr(8221)
 return
 
 ; Sublime Text p@ = content/poems/erosphere/.md

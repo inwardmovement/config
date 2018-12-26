@@ -1,4 +1,4 @@
-﻿[user]
+[user]
 	email = victor.dhamma@gmail.com
 	name = Victor Massé
 [log]
@@ -7,5 +7,8 @@
   pretty = tformat:%Cgreen%cn %Creset%s %Cred%h
 [core]
 	pager = cat
+	editor = 'C:\\Program Files\\Sublime Text 3\\sublime_text.exe' -w
 [winUpdater]
-	recentlySeenVersion = 2.17.0.windows.1
+	recentlySeenVersion = 2.19.2.windows.1
+[url "https://github.com/"]
+	insteadOf = git://github.com/
