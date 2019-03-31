@@ -39,35 +39,9 @@ Return
 #IfWinActive
 Return
 
-
-; Firefox = F1 ouvre l'inspecteur
+; GMail : F1 = convertit la ligne en citation
 #IfWinActive ahk_class MozillaWindowClass
-t:=0
 F1::
-  t:=!t
-  if (t=1)
-  {
-    Send ^+c
-    sleep, 100
-  }
-  else
-  {
-    Send {F12}
-    sleep, 100
-  }
-#IfWinActive
-Return
-
-; Firefox = F2 affiche la source
-#IfWinActive ahk_class MozillaWindowClass
-F2::
-  Send ^u
-#IfWinActive
-Return
-
-; GMail : F3 = convertit la ligne en citation
-#IfWinActive ahk_class MozillaWindowClass
-F3::
   Send ^+9
 #IfWinActive
 return

@@ -32,9 +32,19 @@ return
 <^>!o::œ
 return
 
+; AltGr ! = ≠
+<^>!SC035::≠
+return
+
 ; AltGr D = date
 <^>!d::
 FormatTime, CurrentDateTime,, yyyy-MM-dd
+SendInput %CurrentDateTime%
+return
+
+; AltGr Maj D = date anglais
+<^>!<+d::
+FormatTime, CurrentDateTime,, dd/MM/yyyy
 SendInput %CurrentDateTime%
 return
 
@@ -54,19 +64,15 @@ return
 <^>!^::Send % (t := !t) ? Chr(171) : Chr(187)
 return
 
-; AltGr $ = “ ” toggle
-<^>!$::Send % (t := !t) ? Chr(8220) : Chr(8221)
-return
-
-; Sublime Text p@ = content/poems/erosphere/.md
+; Sublime Text po@ = content/poems/erosphere/.md
 #IfWinActive Sublime Text
-:*:p@::content/poems/erosphere/.md{Left 3}
+:*:po@::content/poemes/erosphere/.md{Left 3}
 #IfWinActive
 return
 
-; Sublime Text a@ = content/articles/.md
+; Sublime Text ar@ = content/articles/.md
 #IfWinActive Sublime Text
-:*:a@::content/articles/.md{Left 3}
+:*:ar@::content/articles/.md{Left 3}
 #IfWinActive
 return
 
