@@ -1,9 +1,8 @@
 ﻿#NoTrayIcon
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
+#NoEnv
 #SingleInstance force
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+SendMode Input
+SetWorkingDir %A_ScriptDir%
 SetTitleMatchMode, 2
 
 ; Sublime Text : F5 ouvre les préférences agrandies
@@ -39,9 +38,16 @@ Return
 #IfWinActive
 Return
 
-; GMail : F1 = convertit la ligne en citation
+; Firefox : F1 = nouvel onglet Metta Conseil
 #IfWinActive ahk_class MozillaWindowClass
 F1::
+  Send ^+2
+#IfWinActive
+return
+
+; GMail : F2 = convertit la ligne en citation
+#IfWinActive ahk_class MozillaWindowClass
+F2::
   Send ^+9
 #IfWinActive
 return

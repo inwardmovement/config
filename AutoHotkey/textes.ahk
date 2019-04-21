@@ -1,9 +1,8 @@
 ﻿#NoTrayIcon
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
+#NoEnv
 #SingleInstance force
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+SendMode Input
+SetWorkingDir %A_ScriptDir%
 SetTitleMatchMode, 2
 
 :*:i@::inwardmovement.github.io
@@ -38,13 +37,13 @@ return
 
 ; AltGr D = date
 <^>!d::
-FormatTime, CurrentDateTime,, yyyy-MM-dd
+FormatTime, CurrentDateTime,, dd/MM/yyyy
 SendInput %CurrentDateTime%
 return
 
 ; AltGr Maj D = date anglais
 <^>!<+d::
-FormatTime, CurrentDateTime,, dd/MM/yyyy
+FormatTime, CurrentDateTime,, yyyy-MM-dd
 SendInput %CurrentDateTime%
 return
 

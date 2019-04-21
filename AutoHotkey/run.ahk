@@ -1,9 +1,8 @@
 ﻿#NoTrayIcon
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
+#NoEnv
 #SingleInstance force
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+SendMode Input
+SetWorkingDir %A_ScriptDir%
 SetTitleMatchMode, 2
 
 ; Bloc-notes
@@ -34,9 +33,9 @@ WinWait, Documents
 WinActivate, Documents
 Return
 
-; Laragon
-#l::
-run C:\laragon\laragon.exe
-WinWait, Laragon
-WinActivate, Laragon
+; ScreenToGif
+#g::
+run C:\Program Files (x86)\ScreenToGif\ScreenToGif.exe
+WinWait, ScreenToGif
+WinActivate, ScreenToGif
 Return
