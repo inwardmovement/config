@@ -41,7 +41,7 @@ Return
 ; Firefox : F1 = nouvel onglet Metta Conseil
 #IfWinActive ahk_class MozillaWindowClass
 F1::
-  Send ^+2
+  Send ^+1
 #IfWinActive
 return
 

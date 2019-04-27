@@ -1,4 +1,5 @@
 ﻿#NoTrayIcon
+; #InstallKeybdHook
 #NoEnv
 #SingleInstance force
 SendMode Input
@@ -9,6 +10,10 @@ SetTitleMatchMode, 2
 return
 
 :*:v@::victor.dhamma@gmail.com
+return
+
+; . (pav num) = ,
+SC053::send, ,
 return
 
 ; Maj droite à = À
@@ -75,21 +80,9 @@ return
 #IfWinActive
 return
 
-; cd D:\Desktop
-#IfWinActive Cmder
-::bur::cd C:\Users\arkay\Desktop
-#IfWinActive
-return
-
 ; cd D:\Documents
 #IfWinActive Cmder
 ::doc::cd C:\Users\arkay\Documents
-#IfWinActive
-return
-
-; explorer .
-#IfWinActive Cmder
-::e::explorer .
 #IfWinActive
 return
 
@@ -111,21 +104,9 @@ return
 #IfWinActive
 return
 
-; up
+; git add + commit + push
 #IfWinActive Cmder
 ::up::git add . && git commit -m "" && git push{Left 13}
-#IfWinActive
-return
-
-; git add and commit
-#IfWinActive Cmder
-::gc::git add . && git commit -m ""{Left 1}
-#IfWinActive
-return
-
-; git push
-#IfWinActive Cmder
-::gp::git push
 #IfWinActive
 return
 
@@ -138,11 +119,5 @@ return
 ; hugo version
 #IfWinActive Cmder
 ::hv::hugo version
-#IfWinActive
-return
-
-; php server
-#IfWinActive Cmder
-::ps::php -S localhost:8000
 #IfWinActive
 return
