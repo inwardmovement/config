@@ -45,7 +45,7 @@ F1::
 #IfWinActive
 return
 
-; GMail : F2 = convertit la ligne en citation
+; GMail : F2 = convertit la ligne en citation
 #IfWinActive ahk_class MozillaWindowClass
 F2::
   Send ^+9

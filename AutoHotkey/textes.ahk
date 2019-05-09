@@ -12,6 +12,9 @@ return
 :*:v@::victor.dhamma@gmail.com
 return
 
+:*:m@::mettaconseil.fr
+return
+
 ; . (pav num) = ,
 SC053::send, ,
 return
@@ -107,6 +110,18 @@ return
 ; git add + commit + push
 #IfWinActive Cmder
 ::up::git add . && git commit -m "" && git push{Left 13}
+#IfWinActive
+return
+
+; git checkout
+#IfWinActive Cmder
+::gc::git checkout
+#IfWinActive
+return
+
+; git branch
+#IfWinActive Cmder
+::gb::git branch
 #IfWinActive
 return
 
