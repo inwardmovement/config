@@ -16,6 +16,7 @@ Return
 #n::
 run C:\Program Files\Sublime Text 3\sublime_text.exe
 WinWait, Sublime Text
+WinMaximize, Sublime Text
 WinActivate, Sublime Text
 Return
 

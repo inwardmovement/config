@@ -45,6 +45,14 @@ F1::
 #IfWinActive
 return
 
+; Firefox : Ctrl G = ajouter à l'url
+!f::
+  Send !d
+  WinWait, ahk_class MozillaWindowClass
+  Send {Right}
+#IfWinActive
+Return
+
 ; GMail : F2 = convertit la ligne en citation
 #IfWinActive ahk_class MozillaWindowClass
 F2::

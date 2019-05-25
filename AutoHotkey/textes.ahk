@@ -89,6 +89,12 @@ return
 #IfWinActive
 return
 
+; cd D:\Desktop
+#IfWinActive Cmder
+::bur::cd C:\Users\arkay\Desktop
+#IfWinActive
+return
+
 ; git status
 #IfWinActive Cmder
 ::gs::git status
