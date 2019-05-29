@@ -15,6 +15,9 @@ return
 :*:m@::mettaconseil.fr
 return
 
+:*:c@::contact@mettaconseil.fr
+return
+
 ; . (pav num) = ,
 SC053::send, ,
 return
@@ -69,18 +72,6 @@ return
 
 ; AltGr ^ = « » toggle
 <^>!^::Send % (t := !t) ? Chr(171) : Chr(187)
-return
-
-; Sublime Text po@ = content/poems/erosphere/.md
-#IfWinActive Sublime Text
-:*:po@::content/poemes/erosphere/.md{Left 3}
-#IfWinActive
-return
-
-; Sublime Text ar@ = content/articles/.md
-#IfWinActive Sublime Text
-:*:ar@::content/articles/.md{Left 3}
-#IfWinActive
 return
 
 ; cd D:\Documents
