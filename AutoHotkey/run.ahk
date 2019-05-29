@@ -14,10 +14,10 @@ Return
 
 ; Sublime Text
 #n::
-run C:\Program Files\Sublime Text 3\sublime_text.exe
-WinWait, Sublime Text
-WinMaximize, Sublime Text
-WinActivate, Sublime Text
+run C:\Users\arkay\AppData\Local\Programs\Microsoft VS Code\Code.exe
+WinWait, Visual Studio Code
+WinMaximize, Visual Studio Code
+WinActivate, Visual Studio Code
 Return
 
 ; Console
